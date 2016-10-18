@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='journal_dates',
       packages=[''],
-      version='0.1',
+      version='0.1.1',
       description='Prints a monthly journal template',
       url='http://github.com/bzamecnik/journal_dates',
       author='Bohumir Zamecnik',
