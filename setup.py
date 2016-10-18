@@ -14,4 +14,22 @@ setup(name='journal_dates',
         'console_scripts': [
             'journal_dates=journal_dates:main',
         ],
-      })
+      },
+       # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
+       classifiers=[
+           # How mature is this project? Common values are
+           #   3 - Alpha
+           #   4 - Beta
+           #   5 - Production/Stable
+           'Development Status :: 3 - Alpha',
+
+           'Topic :: Utilities',
+
+           'License :: OSI Approved :: MIT License',
+
+           'Programming Language :: Python :: 2',
+           'Programming Language :: Python :: 3',
+
+           'Operating System :: POSIX :: Linux',
+           'Operating System :: MacOS :: MacOS X',
+       ])
