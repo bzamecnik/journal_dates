@@ -1,4 +1,4 @@
-'''
+"""
 Prints a monthly journal template.
 
 $ journal_dates 2015 9
@@ -18,7 +18,7 @@ Journal 2015/09
 [...]
 2015-09-29
 2015-09-30
-'''
+"""
 
 import arrow
 import argparse
