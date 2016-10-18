@@ -34,6 +34,5 @@ Journal 2015/09
 2015-09-30
 ```
 
-- Author: Bohumír Zámečník
+- Author: Bohumír Zámečník ([@bzamecnik](https://twitter.com/bzamecnik))
 - License: MIT
-- Requirements: Pyton3, arrow, argparse
