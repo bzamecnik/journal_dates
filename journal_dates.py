@@ -51,6 +51,9 @@ def parse_args():
     args = parser.parse_args()
     return args
 
-if __name__ == '__main__':
+def main():
     args = parse_args()
     print_journal_template(args.year, args.month, args.format, args.locale)
+
+if __name__ == '__main__':
+    main()
