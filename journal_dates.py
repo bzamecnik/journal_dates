@@ -1,4 +1,12 @@
-"""
+# -*- coding: utf-8 -*-
+
+from __future__ import print_function
+from __future__ import unicode_literals
+
+import arrow
+import argparse
+
+__doc__ = """
 Prints a monthly journal template.
 
 $ journal_dates 2015 9
@@ -20,8 +28,6 @@ Journal 2015/09
 2015-09-30
 """
 
-import arrow
-import argparse
 
 def date_range(since, till):
     return [s for (s,e) in arrow.Arrow.span_range('day', since, till)]
