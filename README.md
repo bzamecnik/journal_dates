@@ -1,6 +1,14 @@
 # journal_dates
 
+[![PyPI version](https://img.shields.io/pypi/v/journal_dates.svg)](https://pypi.python.org/pypi/journal_dates)
+![Supported Python versions](https://img.shields.io/pypi/pyversions/journal_dates.svg)
+![License](https://img.shields.io/pypi/l/journal_dates.svg)
+
 A simple Python script to generate a template of journal entries for a month.
+
+```
+pip install journal_dates
+```
 
 ```
 # by default it prints dates for this month
